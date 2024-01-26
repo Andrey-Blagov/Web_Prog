@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+}
+.title{
+    color: brown;
+    font-size: 35px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+       color: #7D7987;
+}
+.menu{
+    color: cornflowerblue;
+    font-size: 25px;
+    line-height: 20px;
+}
+.menu:hover{
+    color: red;
+}
+.image{
+    border-radius: 50%;
+    width: 350px;
+}
+.image:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 5px 10px rgb(131, 83, 83);
+    transition: transform 700ms, box-shadow 700ms;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+p::selection{
+    color: red;
+    background: yellow;
+}
+p::first-letter{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(88,4,4);
+}
+p::first-line{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+li::marker{
+    content: "❄️";
+    /* content: 🦆; */
+    font-size: 2em;
+}
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+p:active:first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkred;
+}
