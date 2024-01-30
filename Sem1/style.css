@@ -1,19 +1,6 @@
 a{
     text-decoration: none;
 }
-.title{
-    color: brown;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
-}
-.text{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-       color: #7D7987;
-}
 .menu{
     color: cornflowerblue;
     font-size: 16px;
@@ -21,6 +8,26 @@ a{
 }
 .menu:hover{
     color: red;
+}
+.title{
+    color: brown;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+       color: #7D7987;
 }
 .image{
     border-radius: 50%;
@@ -52,13 +59,6 @@ form{
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 50px;
-}
-.subtitle{
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
 }
 p::selection{
     color: red;
