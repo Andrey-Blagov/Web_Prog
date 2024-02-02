@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: var(--020-a-18, #f3f4f5);
+    margin: 50px 350px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.home_page {}
+
+.header {
+    /* margin: 50px; */
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 20% 80%; */
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 500px;
+}
+
+.logo_header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+
+}
+
+.textlogo {
+    margin-top: 15px;
+    justify-content: center;
+    
+}
+
+.menu {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    /* text-align: right; */
+    justify-content: flex-end;
+}
+
+.home {
+    color: red;
+}
+
+.top_content {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    margin-top: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.left_top_container {
+    
+    display: grid;
+    grid-template-rows: auto;
+    margin: 10px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(136, 136, 136, 1);
+    ;
+}
+
+.buttons_container {
+    /* display: grid;
+    grid-template-columns: 40% 60%; */
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+
+/* .top_img {
+    margin: 50px;
+    display: grid;
+    justify-content: left;
+} */
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: #F25822;
+    background: #F25822;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.top_logo_container {
+    /* display: grid;
+    grid-template-columns:  17% 17% 17% 17% 17% 17%; */
+    width: 100%;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+
+
+}
+
+.brand_logo {}
