@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.header {}
+
+.top_header {
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left_header {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 18px 0px 19px 231px;
+    gap: 41px;
+}
+
+.right_header {
+    display: flex;
+    justify-content: end;
+    padding: 26px 240px 20px 0px;
+    gap: 33px;
+}
+
+.below_header {
+    background: rgb(241, 228, 230);
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+
+}
+
+.brand {
+    display: flex;
+    justify-content: start;
+    padding: 290px 331px 381px 64px;
+}
+
+/* .brand_text {
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+    display: grid;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+/* .top_brand_text {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: left;
+    justify-content: center;
+    
+} */
+
+/* .below_brand_text {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+} */
+
+/* .fashion {
+
+    color: rgb(241, 109, 127);
+} */
+
+.offer {
+    display: grid;
+    grid-template: 2fr / 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 65px 230px 96px 230px;
+    gap: 30px;
+
+
+}
+
+.offer1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.offer4 {
+    grid-area: 2 / 1 / 2 / 4;
+}
+
+.offer3 {}
+
+.products {
+    padding: 0px 230px 60px 230px;
+}
+
+.product_title {
+    padding-bottom: 48px;
+    gap: 6px;
+    text-align: center;
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+.pr_top_text {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.pr_below_text {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.product {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.discr_prod {
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.dis_top {
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.dis_mid {
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.price {
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+    color: rgb(241, 109, 127);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.button_all1 {
+    text-align: center;
+    /* border: 1px solid rgb(255, 106, 106); */
+}
+
+.button_all2 {
+    color: rgb(242, 99, 118);
+    background: rgb(255, 255, 255);
+    width: 220px;
+    height: 50px;
+    border: 25px;
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    border: 1px solid rgb(255, 106, 106);
+    padding: 15px 39px;
+}
