@@ -1,0 +1,26 @@
+<svg width="23.892334" height="24.000000" viewBox="0 0 23.8923 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_190_1614_dd" x="0.000000" y="0.000000" width="23.892334" height="24.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip190_1614">
+			<rect id="twitter-brands 1" width="15.892374" height="16.000000" transform="translate(4.000000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_190_1614_dd)">
+		<rect id="twitter-brands 1" width="15.892374" height="16.000000" transform="translate(4.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip190_1614)">
+			<path id="Vector" d="M18.2588 4.741C18.2688 4.88312 18.2688 5.0253 18.2688 5.16742C18.2688 9.50241 14.9916 14.4973 9.00171 14.4973C7.15625 14.4973 5.44202 13.9593 4 13.0253C4.26221 13.0557 4.51428 13.0659 4.7865 13.0659C6.3092 13.0659 7.71094 12.5481 8.8302 11.6649C7.39832 11.6344 6.19824 10.6902 5.78479 9.39075C5.98657 9.4212 6.18823 9.4415 6.40002 9.4415C6.69238 9.4415 6.98486 9.40088 7.25708 9.32983C5.76465 9.02527 4.64539 7.70547 4.64539 6.11157L4.64539 6.07098C5.07898 6.31464 5.58313 6.46692 6.11755 6.48718C5.24023 5.89835 4.66553 4.89328 4.66553 3.75623C4.66553 3.14709 4.82678 2.58871 5.10925 2.10141C6.71252 4.09125 9.12268 5.39072 11.8251 5.53287C11.7748 5.28922 11.7445 5.03543 11.7445 4.78162C11.7445 2.97452 13.1965 1.50244 15.0016 1.50244C15.9395 1.50244 16.7865 1.89838 17.3815 2.53796C18.1176 2.39584 18.8234 2.12173 19.4486 1.74609C19.2065 2.50754 18.6923 3.14713 18.0167 3.55319C18.6721 3.48215 19.3075 3.29938 19.8923 3.04559C19.4487 3.69531 18.894 4.27399 18.2588 4.741Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
